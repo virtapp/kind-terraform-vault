@@ -26,14 +26,3 @@ run terraform to create cluster with vault and consul
 $ terraform apply -auto-approve
 ```
 
-run example
-
-```bash
-$ cd example && skaffold dev
-```
-
-visit localhost/ui at browser (copy token form cluster-keys.json for login via token authenticate)
-![vault01](https://github.com/GrassShrimp/vault-consul-demo/blob/master/vault01.png)
-
-visit localhost/koa-secret at browser
-![vault02](https://github.com/GrassShrimp/vault-consul-demo/blob/master/vault02.png)
